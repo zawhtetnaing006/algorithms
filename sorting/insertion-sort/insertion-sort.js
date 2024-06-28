@@ -5,6 +5,7 @@
  * 2. when the array is particially sorted.
  * Advatage: 
  *  1. same as bubble-sort with slightly improved performance with less cpu usage
+ *  2. can be used to sort even when you don't have full data. Beacuse it only needs the left side of the array to do sorting
  */
 function insertionSort(arr) {
     let n = arr.length;
